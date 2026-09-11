@@ -2,7 +2,11 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.voxodds/voxodds",
   "description": "All-in outcome rankings with live depth, fees, verified rules, EV checks, and track records.",
-  "version": "1.8.0",
+  "version": "1.8.1",
+  "repository": {
+    "url": "https://github.com/softdevfz/voxodds-mcp",
+    "source": "github"
+  },
   "websiteUrl": "https://voxodds.com",
   "remotes": [
     {
