@@ -52,6 +52,12 @@ curl -s https://voxodds.com/mcp \
 | `get_forecaster_record(forecaster_id)` | Public scorecard for any forecaster id. |
 | `get_world_cup_odds()` / `get_world_cup_brief()` / `get_world_cup_matchday(date?)` | Archived World Cup 2026 tools. |
 
+## Related
+
+- Live comparison page: https://voxodds.com/polymarket-vs-kalshi
+- Open daily dataset of the same price gaps (CSV, CC BY 4.0): https://github.com/softdevfz/polymarket-kalshi-price-gaps
+- Bluesky feed of prediction-market posts: https://bsky.app/profile/voxodds.com/feed/prediction-markets
+
 ## Notes
 - Displayed probabilities are not executable quotes; verify order books, fees, fills, eligibility and resolution rules before acting. Research only; check venue eligibility and jurisdiction.
 - Venue links returned by the tools may carry a referral code (the price is the same for you).
